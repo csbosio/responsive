@@ -1,0 +1,55 @@
+* { margin: 0; padding: 0;}
+header, body, footer { height: 900px; width: 300px; background-image: url(fondodepantalla.jpg); 
+    background-repeat: no-repeat;background-size: cover; background-attachment: fixed; position: relative; margin-left: auto; margin-right: auto;}
+.logo, .logo2
+ {height: 80px; width: 200px 
+    ;
+}
+
+ 
+.logo2 {position: absolute ;left: 800px; top: 0px}
+.nombre {height: 100px; width: 550px; position: absolute; left: 250px ;  color: rgb(10, 40, 78);
+ text-align: center; position: absolute; top : 50px ;  } 
+#casio , #casio2  {height: 100px; width: 250px;}
+#dueños {height: 300px; width: 800px;}
+.dueños { margin-top: 150px; margin-left: 130px;}
+#foto1 { height: 200px; width: 200px 
+    ; }
+    .foto1 {margin-left: 130px; }
+
+    #foto2{ height: 200px; width: 200px  }
+    
+.foto2 { position: absolute; left: 330px; top: 534px;}
+#foto3 { height: 200px; width: 200px}
+.foto3 {position: absolute; left: 530px; top: 534px;}
+#foto4 {height: 200px; width: 200px}
+.foto4 {position: absolute; left: 730px; top: 534px;}
+#foto5 {height: 300px; width: 800px;}
+.foto5 {  margin-left: 130px;}
+#foto6{height: 300px; width: 800px;}
+.foto6 {  margin-left: 130px;}
+
+@media all and (min-width: 600px) and (max-width: 1023px)
+{
+    header, body, footer {width: 580px;}
+    #logo, .#logo2 {width: 100px; height: 100px; background-size: 100px;}
+
+}
+
+
+@media all and (max-width: 599px
+)
+
+{
+    header, body, footer {width: 90%;}
+#logo , .#logo2 {width: 75px; height: 75px;}
+
+
+
+
+
+
+
+
+
+}
